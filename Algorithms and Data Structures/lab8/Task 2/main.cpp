@@ -25,6 +25,5 @@ int main() {
     }
 
     std::cout << "YES" << std::endl;
-
     return 0;
 }
