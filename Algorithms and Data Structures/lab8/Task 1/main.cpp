@@ -7,6 +7,7 @@ int main() {
 
     uint16_t n,m;
     std::cin >> n >> m;
+
     std::vector<std::vector<uint8_t>> matrix(n);
     for (auto& v : matrix) {
         v.resize(n);
