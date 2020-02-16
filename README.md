@@ -2,7 +2,7 @@
 Second semester worth of laboratory practices on algorithms and data structures.
 
 All tasks tested in **PCMS2** 
->You can also see test files in cmake-build-debug) folders for eack tasks)
+>You can also see test files in cmake-build-debug folders for eack task
 
 ## [Lab 8](http://neerc.ifmo.ru/teaching/disalgo/problems/problems8.pdf)
 1. [От списка ребер к матрице смежности(Edje List to Adjacency Matrix)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab8/Task%201/main.cpp)
