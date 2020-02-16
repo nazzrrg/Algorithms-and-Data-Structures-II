@@ -1,0 +1,59 @@
+#include <iostream>
+#include <vector>
+
+struct list_node {
+    std::vector<uint32_t> list;
+    bool visited;
+    uint32_t adj_comp_n;
+};
+
+std::vector<list_node> adj_list;
+
+void dfs(int cur) {
+    adj_list[cur].visited = true;
+
+    for (int j = 0; j < adj_list[cur].list.size(); j++) {
+        int nxt = adj_list[cur].list[j];
+        if (!adj_list[nxt].visited) {
+            adj_list[nxt].adj_comp_n = adj_list[cur].adj_comp_n;
+            dfs(nxt);
+        }
+    }
+}
+
+int main() {
+    std::freopen("components.in", "r", stdin);
+    std::freopen("components.out", "w", stdout);
+
+    uint16_t n,m;
+    std::cin >> n >> m;
+    adj_list.resize(n);
+
+    for (uint16_t t1, t2, i = 0; i < m; i++) {
+        std::cin >> t1 >> t2;
+        t1--;
+        t2--;
+        adj_list[t1].visited = false;
+        adj_list[t1].list.push_back(t2);
+        adj_list[t2].visited = false;
+        adj_list[t2].list.push_back(t1);
+    }
+
+    uint32_t counter = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (!adj_list[i].visited) {
+            counter++;
+            adj_list[i].adj_comp_n = counter;
+            dfs(i);
+        }
+    }
+
+    std::cout << counter << std::endl;
+
+    for (int i = 0; i < n; i++) {
+        std::cout << adj_list[i].adj_comp_n << ' ';
+    }
+    return 0;
+}
+
