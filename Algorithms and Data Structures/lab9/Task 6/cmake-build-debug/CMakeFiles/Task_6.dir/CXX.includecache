@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Algorithms-and-Data-Structures-II/Algorithms and Data Structures/lab9/Task 6/main.cpp
+iostream
+-
+vector
+-
+
