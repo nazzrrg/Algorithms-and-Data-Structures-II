@@ -20,4 +20,7 @@ All tasks tested in **PCMS2**
 5. [Гамильтонов путь(Hamilton Path)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab9/Task%205/main.cpp)
 6. [Game(Graph Game)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab9/Task%206/main.cpp)
 
-
+## [Lab 10](http://neerc.ifmo.ru/teaching/disalgo/problems/problems10.pdf)
+1. [Степени вершин(Vertex's Degrees)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%201/main.cpp)
+2. [Остовное дерево(Min Span Tree)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%202/main.cpp)
+3. [Остовное дерево 2.0(Min Span Tree 2.0)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%203/main.cpp)
