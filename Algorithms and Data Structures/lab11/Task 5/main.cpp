@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -12,17 +13,8 @@ struct edge {
     edge() = default;
 };
 
-void dfs(int i, vector<vector<int>>& g, vector<bool>& used) {
-    used[i] = true;
-    for (auto to : g[i]) {
-        if (!used[to])
-            dfs(to, g, used);
-    }
-}
-
-void ford(vector<edge>& e, int v, int n, int m, vector<vector<int>>& g) {
-    vector<int64_t> d (n, INF);
-    d[v] = 0;
+void ford(vector<edge>& e, int v, int n) {
+    vector<int64_t> d (n, 0);
     vector<int> p (n, -1);
     int x = -1;
     for (int i = 0; i < n; ++i) {
@@ -37,40 +29,44 @@ void ford(vector<edge>& e, int v, int n, int m, vector<vector<int>>& g) {
         }
     }
 
-    vector<bool> used(n, false);
+    if (x == -1) {
+        cout << "NO";
+        return;
+    }
+    int y = x;
+    for (int i = 0; i < n; ++i)
+        y = p[y];
 
-    if (x != -1) {
-        for (int i = 0; i < n; ++i)
-            x = p[x]; // так мы точно упремся в цикл в силу того что просматриваем все ребра
-        dfs(x, g, used); // обойдем цикл
-    }
-    for (int i = 0; i < n; ++i) {
-        if(used[i]) {
-            cout << '-' << endl;
-        } else if (d[i] == INF) {
-            cout << '*' << endl;
-        } else {
-            cout << d[i] << endl;
-        }
-    }
+    vector<int> path;
+    x = y;
+    do {
+        path.push_back(x);
+        x=p[x];
+    } while (x!=y);
+    path.push_back(x);
+    reverse (path.begin(), path.end());
+    cout << "YES" << endl << path.size() << endl;
+    for (int i : path)
+        cout << i + 1 << ' ';
 }
 
 int main() {
     freopen("negcycle.in", "r", stdin);
     freopen("negcycle.out", "w", stdout);
-    int n, m, s;
-    cin >> n >> m >> s;
+    int n;
+    cin >> n;
     vector<edge> e;
-    vector<vector<int>> g(n);
-    for (int i = 0; i < m; ++i){
-        int from, to;
-        int64_t cost;
-        cin >> from >> to >> cost;
-        e.emplace_back(--from, --to, cost);
-        g[from].emplace_back(to);
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; j++) {
+            int64_t a;
+            cin >> a;
+            if (a != 1e9) {
+                e.emplace_back(i, j, a);
+            }
+        }
     }
 
-    ford(e, --s, n, m, g);
+    ford(e, 0, n);
 
     return 0;
 }
