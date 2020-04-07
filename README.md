@@ -24,3 +24,10 @@ All tasks tested in **PCMS2**
 1. [Степени вершин(Vertex's Degrees)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%201/main.cpp)
 2. [Остовное дерево(Min Span Tree)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%202/main.cpp)
 3. [Остовное дерево 2.0(Min Span Tree 2.0)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab10/Task%203/main.cpp)
+
+## [Lab 11](http://neerc.ifmo.ru/teaching/disalgo/problems/problems11.pdf)
+1. [Кратчайший путь(Dijkstra)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab11/Task%201/main.cpp)
+2. [Кратчайший путь от каждой до каждой(Floyd Warshall)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab11/Task%202/main.cpp)
+3. [Кратчайший путь 2.0 (Dijkstra 2.0)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab11/Task%203/main.cpp)
+4. [Кратчайший путь+(Ford Bellman)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab11/Task%204/main.cpp)
+5. [Цикл отрицательного веса(Negative Weight Cycle)](https://github.com/nazzrrg/Algorithms-and-Data-Structures-II/blob/master/Algorithms%20and%20Data%20Structures/lab11/Task%205/main.cpp)
