@@ -35,48 +35,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91902841-252f-49ca-bff9-b8bbbc813462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Task 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Task_2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Task_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Task_2.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/pathsg.out" afterDir="false" />
-    </list>
+    <list default="true" id="91902841-252f-49ca-bff9-b8bbbc813462" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +46,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nazzrrg &lt;nazarov.egor2010@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1aC1W2zoyQ0KeIJ5nuGkx71iU4X" />
@@ -119,46 +83,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586224789676</updated>
-      <workItem from="1586224791700" duration="1062000" />
+      <workItem from="1586224791700" duration="1125000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab 11 Task 2 OK">
+      <created>1586225953420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586225953421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Lab 11 Task 2 OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 11 Task 2 OK" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586225876635">
+    <state x="150" y="52" key="CommitChangelistDialog2" timestamp="1586225953062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586225876635" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586225876633">
+    <state x="150" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586225953062" />
+    <state width="1398" height="147" key="GridCell.Tab.0.bottom" timestamp="1586225969241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586225876633" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586225876632">
+    <state width="1398" height="147" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586225969241" />
+    <state width="1398" height="147" key="GridCell.Tab.0.center" timestamp="1586225969239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586225876632" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586225876634">
+    <state width="1398" height="147" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586225969239" />
+    <state width="1398" height="147" key="GridCell.Tab.0.left" timestamp="1586225969238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586225876634" />
-    <state width="1398" height="147" key="GridCell.Tab.1.bottom" timestamp="1586225849517">
+    <state width="1398" height="147" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586225969238" />
+    <state width="1398" height="147" key="GridCell.Tab.0.right" timestamp="1586225969240">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586225849517" />
-    <state width="1398" height="147" key="GridCell.Tab.1.center" timestamp="1586225849515">
+    <state width="1398" height="147" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586225969240" />
+    <state width="1398" height="147" key="GridCell.Tab.1.bottom" timestamp="1586225969244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586225849515" />
-    <state width="1398" height="147" key="GridCell.Tab.1.left" timestamp="1586225849513">
+    <state width="1398" height="147" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586225969244" />
+    <state width="1398" height="147" key="GridCell.Tab.1.center" timestamp="1586225969243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586225849513" />
-    <state width="1398" height="147" key="GridCell.Tab.1.right" timestamp="1586225849516">
+    <state width="1398" height="147" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586225969243" />
+    <state width="1398" height="147" key="GridCell.Tab.1.left" timestamp="1586225969242">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586225849516" />
+    <state width="1398" height="147" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586225969242" />
+    <state width="1398" height="147" key="GridCell.Tab.1.right" timestamp="1586225969243">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="147" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586225969243" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586225954989">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586225954989" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
